@@ -1,8 +1,4 @@
-<p>
-<img width="260" height="170" src="https://www.flaticon.es/svg/static/icons/svg/2620/2620551.svg" align="right" >
-</p>
-
-# :colombia: 0x05. Personal data
+# Personal data
 
 - Examples of Personally Identifiable Information (PII)
 - How to implement a log filter that will obfuscate PII fields
