@@ -1,8 +1,4 @@
-<p>
-<img width="260" height="170" src="https://www.flaticon.com/svg/static/icons/svg/1205/1205526.svg" align="right" >
-</p>
-
-# :colombia: 0x09. Unittests and Integration Tests
+# Unittests and Integration Tests
 
 ## Prerequisites
 
