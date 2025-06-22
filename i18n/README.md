@@ -1,15 +1,11 @@
-<p>
-<img width="260" height="170" src="https://www.flaticon.com/svg/static/icons/svg/2206/2206461.svg" align="right" >
-</p>
-
-# :colombia: 0x0A. i18n
+# :colombia: i18n
 
 - Learn how to parametrize Flask templates to display different languages
 - Learn how to infer the correct locale based on URL parameters, user settings or request headers
 - Learn how to localize timestamps
 
 ## Prerequisites
-
+hjhhkbkbkhbkhbkhbkhbk
 - All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 `(version 3.7)`
 - All your files should end with a new line
 - A README.md file, at the root of the folder of the project, is mandatory
