@@ -1,1 +1,3 @@
-This is a README for my i18n project!
+# i18n
+
+This project contains tasks for learning to create internationalized web pages with Flask.
