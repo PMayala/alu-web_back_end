@@ -1,3 +1,2 @@
-// Delete items
-db.school.deleteMany({name: 'Holberton school'})
-
+// deletes all docs with specified field
+db.school.deleteMany( { name: "Holberton school" } )

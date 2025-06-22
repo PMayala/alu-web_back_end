@@ -1,3 +1,2 @@
-// Make a database
+// creates or uses a db
 use my_db
-

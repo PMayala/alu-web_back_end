@@ -1,22 +1,7 @@
 #!/usr/bin/env python3
-""" Where can I learn Python? """
-import pymongo
+""" Module for using PyMongo """
 
 
-def schools_by_topic(mongo_collection, topic: str):
-    """ Search the school based in school
-
-        Args:
-            mongo_collection: Collection
-            topic: Content
-
-        Return:
-            List of school
-    """
-    query: dict = {"topics": topic}
-    schools: list = []
-
-    for school in mongo_collection.find(query):
-        schools.append(school)
-
-    return schools
+def schools_by_topic(mongo_collection, topic):
+    """ Returns the list of school having a specific topic """
+    return [item for item in mongo_collection.find({"topics": topic})]

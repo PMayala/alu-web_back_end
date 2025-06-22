@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """ 101-main """
 from pymongo import MongoClient
 list_all = __import__('8-all').list_all
@@ -26,4 +26,3 @@ if __name__ == "__main__":
     top_students = top_students(students_collection)
     for student in top_students:
         print("[{}] {} => {}".format(student.get('_id'), student.get('name'), student.get('averageScore')))
-

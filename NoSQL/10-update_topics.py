@@ -1,20 +1,9 @@
 #!/usr/bin/env python3
-""" Update School """
-import pymongo
-from typing import List
+""" Module for using PyMongo """
 
 
 def update_topics(mongo_collection, name, topics):
-    """ Change the data
-    
-        Args:
-            mongo_collection:
-            name: School
-            topics: School name
-
-        Return:
-            Nothing
-    """
-    query: dict = {'name': name}
-    mongo_collection.update_many(query, {"$set": {"topics": topics}})
-
+    """ Changes field in document based on name field """
+    name_field = {"name": name}
+    value_field = {"$set": {"topics": topics}}
+    mongo_collection.update_many(name_field, value_field)
